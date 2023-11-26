@@ -95,10 +95,16 @@ function About(){
                     text_align={"left"}
                 />
                 <AboutStatement
+                    heading={"C Compiler"}
+                    text={"Developed a compiler for C written in C++, it was capable of converting a subset of the C language into Arm assembly code."}
+                    image={"[placeholder]"}
+                    text_align={"right"}
+                />
+                <AboutStatement
                     heading={"This Website!"}
                     text={"Powered by NextJS and Vercel, this page was built in the endeavour to improve my full-stack development skills and learn how the React framework works on a simple use-case."}
                     image={"[placeholder]"}
-                    text_align={"right"}
+                    text_align={"left"}
                 />
             </div>
         </div>
@@ -107,16 +113,16 @@ function About(){
 
 function Experience(){
     return(
-        <div className="bg-[#FFBB5C]">
-
+        <div className="pl-[10%] pr-[10%] bg-[#FFBB5C]">
+            <h1 className={"text-4xl pt-[6%] p-[2%]"}> Experience </h1>
         </div>
     )
 }
 
 function Contact(){
     return(
-        <div>
-
+        <div className="pl-[10%] pr-[10%]">
+            <h1 className={"text-4xl pt-[6%] p-[2%]"}> Contact </h1>
         </div>
     )
 }
